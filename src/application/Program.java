@@ -21,16 +21,16 @@ public class Program {
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
 		//Version
-		//Implementação da interface
+		// 1-Implementação da interface
 		//List<String> name = list.stream().map(new UpperCaseName()).collect(Collectors.toList());
 		
-		//Reference method com método estático
+		// 2-Reference method com método estático
 		//List<String> name = list.stream().map(Product::staticUpperCase).collect(Collectors.toList());
 		
-		//Reference method com método não estático
+		// 3-Reference method com método não estático
 		//List<String> name = list.stream().map(Product::nonStaticUpperCase).collect(Collectors.toList());
 		
-		//Expressão Lambda
+		// 4-Expressão Lambda
 		
 		//Function <Product,String> func = p -> p.getName().toUpperCase();
 		//List<String> name = list.stream().map(func).collect(Collectors.toList());
